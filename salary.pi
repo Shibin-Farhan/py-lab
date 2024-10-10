@@ -1,0 +1,6 @@
+bpay=float(input("Enter basic salary : "))
+HRA=0.10*bpay
+TA=.05*bpay
+
+total=bpay+HRA+TA
+print(total)
